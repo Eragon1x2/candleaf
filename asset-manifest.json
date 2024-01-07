@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/market_by_cosmetics/static/css/main.1a98bd4c.css",
+    "main.css": "/market_by_cosmetics/static/css/main.9be1ef54.css",
     "main.js": "/market_by_cosmetics/static/js/main.d19101b0.js",
     "static/media/bg-image.jpg": "/market_by_cosmetics/static/media/bg-image.b9c743d2df02f8953444.jpg",
     "static/media/pluses.png": "/market_by_cosmetics/static/media/pluses.e2c3be8dbc21f74d2bd0.png",
@@ -19,11 +19,11 @@
     "static/media/image 1.png": "/market_by_cosmetics/static/media/image 1.fab5cc0599d70de19607.png",
     "static/media/image 4.png": "/market_by_cosmetics/static/media/image 4.25f6778828a2320ec0a4.png",
     "index.html": "/market_by_cosmetics/index.html",
-    "main.1a98bd4c.css.map": "/market_by_cosmetics/static/css/main.1a98bd4c.css.map",
+    "main.9be1ef54.css.map": "/market_by_cosmetics/static/css/main.9be1ef54.css.map",
     "main.d19101b0.js.map": "/market_by_cosmetics/static/js/main.d19101b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a98bd4c.css",
+    "static/css/main.9be1ef54.css",
     "static/js/main.d19101b0.js"
   ]
 }
