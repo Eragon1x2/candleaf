@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/candleaf/static/css/main.2e1f0274.css",
-    "main.js": "/candleaf/static/js/main.9ca629e9.js",
+    "main.js": "/candleaf/static/js/main.e4dbd172.js",
     "static/media/bg-image.jpg": "/candleaf/static/media/bg-image.b9c743d2df02f8953444.jpg",
     "static/media/pluses.png": "/candleaf/static/media/pluses.e2c3be8dbc21f74d2bd0.png",
     "static/media/image_1-transformed.png": "/candleaf/static/media/image_1-transformed.a47a3e3c8e71d1073394.png",
@@ -20,10 +20,10 @@
     "static/media/image 4.png": "/candleaf/static/media/image 4.25f6778828a2320ec0a4.png",
     "index.html": "/candleaf/index.html",
     "main.2e1f0274.css.map": "/candleaf/static/css/main.2e1f0274.css.map",
-    "main.9ca629e9.js.map": "/candleaf/static/js/main.9ca629e9.js.map"
+    "main.e4dbd172.js.map": "/candleaf/static/js/main.e4dbd172.js.map"
   },
   "entrypoints": [
     "static/css/main.2e1f0274.css",
-    "static/js/main.9ca629e9.js"
+    "static/js/main.e4dbd172.js"
   ]
 }
