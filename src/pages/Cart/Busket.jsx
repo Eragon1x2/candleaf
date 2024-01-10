@@ -3,6 +3,7 @@ import './Busket.css'
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { cartActions } from '../../store/cart';
+import { toast } from 'react-toastify';
 
 function Busket() {
     const cartItems = useSelector((state) => state.cart)
@@ -40,7 +41,16 @@ function Busket() {
             </ul>
             <div className="buy">
             <div><p>Sub-total ${Math.round(cartItems.totalPrice)}</p><p>Tax and shipping cost will be calculated later</p></div>
-            <button>Check-out</button>
+            <button onClick={() => toast.error('Sorry, but we are currently unable to provide purchases from this site.', {
+position: "top-right",
+autoClose: 2000,
+hideProgressBar: true,
+closeOnClick: true,
+pauseOnHover: true,
+draggable: true,
+progress: undefined,
+theme: "colored",
+})} style={{cursor: 'pointer'}}>Check-out</button>
             </div>
         </div>
     )
