@@ -1,0 +1,132 @@
+.pluses {
+    background: #F7F8FA;
+    margin-top: 100px;
+}
+.pluses_wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 209px;
+}
+.pluses_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pluses img {
+    background-color: white;
+}
+.pluses ul {
+    list-style: none;
+}
+.pluses_container li img {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.pluses_title {
+    color: #1D252C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 46.6px; /* 116.5% */
+letter-spacing: -0.9px;
+margin-bottom: 15px;
+}
+.pluses_text {
+    color:  #56B280;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.8px; /* 142.5% */
+margin-bottom: 38px;
+}
+
+.pluses_checks li {
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.8px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+}
+.pluses_checks_check {
+    width: 14px;
+    margin-right: 10px;
+}
+.pluses_checks_check img {
+    background-color: transparent;
+}
+.pluses_checks span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+}
+.pluses_container button {
+        padding: 8px 44px;
+        border-radius: 4px;
+        background-color:  #56B280;
+        color: white;
+        border: none;
+        margin-top: 76px;
+        cursor: pointer;
+
+    }
+.pluses_container button a {
+    color: white;
+}
+@media(max-width: 1200px) {
+    .pluses {
+        padding: 0 10px;
+    }
+    .pluses img {
+        width: 450px;
+    }
+    .pluses_title {
+    font-size: 40px;
+    }
+    .pluses_text {
+    font-size: 16px;
+    }
+    .pluses_checks li {
+    font-size: 16px;
+    }
+    
+}
+@media(max-width: 850px) {
+    .pluses_container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .pluses_title {
+        margin-top: 20px;
+    }
+}
+@media(max-width: 500px) {
+    .pluses_checks li {
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+    }
+    .pluses {
+        height: 1000px;
+    }
+    .pluses_checks span {
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: bolder;
+    }
+    .pluses_container button {
+        margin-top: 30px;
+    }
+}

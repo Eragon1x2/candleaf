@@ -1,0 +1,20 @@
+.abouts {
+    /* max-width: 1100px;
+    margin: 0 auto;
+    */
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.abouts .pluses {
+    margin-top: 0;
+}
+.abouts .team {
+    margin-bottom: 0;
+}
+.abouts .footer {
+    margin-top: 0;
+}
+.abouts .pluses button {
+    display: none;
+}

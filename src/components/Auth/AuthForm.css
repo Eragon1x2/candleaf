@@ -1,0 +1,130 @@
+.authform {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.authform h1 {
+    margin-top: 50px;
+    color: #0B254B;
+
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+}
+.authform form {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: 2px solid #56B280;
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.authform form input {
+    width: 400px;
+    height: 50px;
+    color: #616161;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 182.857% */
+border: 1px solid #616161;
+outline: none;
+padding-left: 10px;
+}
+.authform form input:focus {
+    border: 1px solid #56B280;
+}
+.authform form input:not(:last-child) {
+    margin-bottom: 40px;
+}
+.authform form input:last-child {
+    margin-bottom: 20px;
+}
+.authform form div button:last-child {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;;
+    background-color: #56B280;
+    border: none;
+    color: #FFF;
+font-family: Roboto;
+font-size: 20.645px;
+font-weight: 500;
+margin-left: 10px;
+cursor: pointer;
+
+}
+.authform form label {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    margin-top: 10px;
+}
+.authform form label p {
+    margin-bottom: 10px;
+    font-feature-settings: 'clig' off, 'liga' off;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px;
+}
+.authform form div {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.authform form div button:first-child {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.form_link {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #56B280;
+    text-decoration: underline;
+}
+@media(max-width: 425px) {
+    .authform form {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        height: 400px;
+        padding: 0 10px;
+    }
+    .authform form label {
+        width: 100%;
+    }
+    .authform form input {
+        width: 100%;
+    }
+    .authform form input:first-child {
+        margin-top: 50px;
+    }
+    .authform {
+        padding: 0 10px;
+    }
+}

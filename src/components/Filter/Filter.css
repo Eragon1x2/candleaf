@@ -1,0 +1,71 @@
+.filter button {
+    border-radius: 4px;;
+    background-color: #56B280;
+    border: none;
+    color: #FFF;
+font-family: Roboto;
+font-size: 18.645px;
+font-weight: 500;
+margin-left: 10px;
+cursor: pointer;
+}
+.filter label {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.radio input[type='radio'] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #DBDBDB;
+    border-radius: 50%;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+  }
+  .radio input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: 10% auto;
+    border-radius: 50%;
+  }
+  
+  .radio input[type='radio']:checked:before {
+    background: #56B280;
+  }
+.filter_container {
+  position: relative;
+}
+.filter_container p {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.filter_container p svg {
+  width: 30px;
+  height: 30px;
+  color: #56B280;
+
+}
+.show_filters {
+  /* position: absolute; */
+  bottom: 10px;
+  left: 10px;
+  color: #56B280;
+  text-decoration: underline;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media(max-width: 800px) {
+  
+  .filter_container {
+    display: none;
+  }
+}
