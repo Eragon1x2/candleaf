@@ -1,10 +1,9 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
+
 import { authActions } from "./auth";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword,signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { useSelector } from "react-redux";
+
 import { auth } from "../unit/Firebase";
 import { signOut } from "firebase/auth";
-import { redirect } from "react-router-dom";
 
 export const registerUser = (email, password) => {
     return async(dispatch) => {
