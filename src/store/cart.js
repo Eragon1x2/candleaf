@@ -34,6 +34,7 @@ const cartSlice = createSlice({
       const existingItem = state.items.find((item) => item.id === id);
       if(existingItem.count === 1) {
         state.items = state.items.filter((item) => item.id !== id);
+        state.totalPrice -= existingItem.price;
       } else {
         if(a === '+') {
           existingItem.count += 1;
